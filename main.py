@@ -157,7 +157,7 @@ class WeSingExtractor:
             # 点击K歌
             self.click_k_btn()
             print("请耐心等待歌曲播放完成...")
-            # 等待播放完一首歌时间，默认3500秒
+            # 等待播放完一首歌时间，默认350秒
             time.sleep(350)
             self.exit_click_()
             print("歌曲播放完毕！")
